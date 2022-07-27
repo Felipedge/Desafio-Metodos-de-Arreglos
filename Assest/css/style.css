@@ -3,6 +3,7 @@
     font-family: 'Bitter', serif;
     width: 100%;
     height: 100hv;
+    display: flex;
 }
 .titulo{
     
@@ -11,4 +12,11 @@
 .contador{
     display: flex;
     flex-direction: row;
+}
+.listadetareas{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Bitter', serif;
+
+
 }
