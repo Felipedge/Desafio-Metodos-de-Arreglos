@@ -15,3 +15,14 @@ btnAgregar.addEventListener("click", () => {
 }
 listadeTareas.innerHTML = html;
 })
+
+btnAgregar.addEventListener("click", () => {
+    nuevaTarea = {id: Date.now(), nombre: invitadoInput.value}
+    invitados.push(nuevoInvitado)
+    invitadoInput.value = ""
+    let html = ""
+    for (invitado of invitados) {
+    html += `<li>${invitado.nombre}</li>`
+    }
+    listaDeInvitados.innerHTML = html;
+    })
