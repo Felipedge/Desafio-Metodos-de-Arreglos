@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Fira+Sans:wght@200&family=Lato:wght@300&family=Mukta&family=Roboto:ital,wght@0,300;1,100&display=swap');
 
 .body {
+    background-image: url('../img/pizarra.jpeg');
     font-family: 'Bitter', serif;
     width: 100%;
     height: 100hv;
@@ -21,15 +22,13 @@
     flex-direction: column;
 }
 
-.tareas{
+.tareas {
     align-items: center;
-
     width: 100%;
     gap: 30px;
 }
-.resumen {
-    align-items: center;
 
+.resumen {
     align-items: center;
     font-family: 'Bitter', serif;
     display: flex;
@@ -43,7 +42,7 @@
     flex-direction: row;
     font-family: 'Bitter', serif;
 }
-.input{
+
+.input {
     width: 250px;
 }
-
