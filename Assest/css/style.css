@@ -21,9 +21,29 @@
     flex-direction: column;
 }
 
+.tareas{
+    align-items: center;
+
+    width: 100%;
+    gap: 30px;
+}
+.resumen {
+    align-items: center;
+
+    align-items: center;
+    font-family: 'Bitter', serif;
+    display: flex;
+    flex-direction: column;
+}
+
 .listatareas {
     width: 100%;
+    align-items: center;
     display: flex;
     flex-direction: row;
     font-family: 'Bitter', serif;
 }
+.input{
+    width: 250px;
+}
+
